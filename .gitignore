@@ -17,13 +17,12 @@ dist-ssr/
 .env.ci
 .env.production
 
+temp_auto_push.bat
 # Ignore all .ignore files and the .ignore folder
 .ignore/
 *.ignore
 
 # Editor and IDE settings
-.vscode/
-!.vscode/extensions.json
 .idea/
 *.suo
 *.ntvs*
@@ -39,3 +38,5 @@ nul
 # Tooling and codegen artifacts
 .codegpt/
 excluded/
+.gitignore
+branch_structure.json
