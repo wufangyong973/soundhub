@@ -7,13 +7,15 @@ coverage/
 # Logs
 *.log
 npm-debug.log*
+temp_auto_push.bat
 
 # Environment
 *.env
 *.env.*.local
 
 # Editor / OS
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
+.gitignore
+branch_structure.json
