@@ -113,8 +113,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "dev": "vite --mode examples",
-    "build": "npm run typecheck && vite build --mode lib && vite build --mode extras",
+    "dev": "node api.js && vite --mode examples",
+    "build": "node api.js && npm run typecheck && vite build --mode lib && vite build --mode extras",
     "build:examples": "vite build --mode examples",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm test && npm run build",

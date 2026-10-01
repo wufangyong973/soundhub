@@ -10,10 +10,10 @@ npm-debug.log*
 
 # Environment
 *.env
+temp_auto_push.bat
 *.env.*.local
 
 # Editor / OS
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
@@ -24,3 +24,5 @@ CLAUDE.md
 .agents/
 .claude/
 skills-lock.json
+.gitignore
+branch_structure.json
